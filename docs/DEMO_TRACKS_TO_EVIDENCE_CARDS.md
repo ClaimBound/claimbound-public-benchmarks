@@ -44,7 +44,7 @@ request example
 
 | Track ID | Audience | Honest local outcome target | README rule |
 | --- | --- | --- | --- |
-| `GROK_PROMPTS_SOURCE_AUDIT_D001` | Public AI transparency / flagship workflow | `PASSED_UNDER_PROTOCOL` for repository source audit when commit, README, license and prompt hashes validate. | Show as green only for prompt-source audit, not runtime equivalence. |
+| `GROK_PROMPTS_SOURCE_AUDIT_D001` | Public AI transparency / flagship workflow | `PASSED_UNDER_PROTOCOL` for repository source audit when commit, README, license and prompt hashes validate. Local rerun report matches the original sanitized-report hash, but independent reproduction is still pending. | Show as green only for prompt-source audit, not runtime equivalence. |
 | `MODEL_EVAL_D001` | AI and LLM evaluation teams | Public model-card or benchmark-claim readiness audit: are model id, prompt set, scoring rule and transcript hashes available? | Show only after prompt manifest, transcript hashes and score report validate. |
 | `REPRO_APPENDIX_D001` | Open science / reproducibility | Independent rerun of an existing public ClaimBound card, starting with NASA POWER D-103. | Show reproduced, negative or source-byte-drift status honestly. |
 | `FUNDING_REVIEW_D001` | Funding reviewers | Evidence appendix audit for a public report: promised protocol, source, result status and forbidden claims. | Show source/status/limitations trail, not funding strategy. |

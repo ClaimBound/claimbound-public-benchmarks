@@ -54,7 +54,8 @@
       "reproduction_level": "not independently reproduced",
       "result_status": "PASSED_UNDER_PROTOCOL",
       "sanitized_report_path": "artifacts/grok_prompts_source_audit_d001_summary.json",
-      "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json"
+      "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.svg"
     },
     {
       "domain": "ml-research",

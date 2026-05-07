@@ -54,6 +54,8 @@ server-side layers are absent, and does not prove model superiority.
 
 See the full worked example:
 [Where is the evidence? Grok claim workflow](docs/FLAGSHIP_WORKFLOW_GROK_EVIDENCE.md).
+The rendered share card is available as
+[SVG](docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.svg).
 
 ## Demo Track Cards
 
@@ -65,7 +67,7 @@ can be claimed.
 
 | Track | Audience | Current status | Card |
 | --- | --- | --- | --- |
-| Grok prompt transparency | Public AI transparency verification | `PASSED_UNDER_PROTOCOL` | [JSON](docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json) |
+| Grok prompt transparency | Public AI transparency verification | `PASSED_UNDER_PROTOCOL` | [JSON](docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json) / [SVG](docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.svg) |
 | Model evaluation | AI and LLM evaluation teams | `BLOCKED_SOURCE` | [JSON](docs/evidence_cards/CLAIMBOUND-MODEL_EVAL_D001-2026-05-07.json) |
 | Reproduction appendix | Open-science reproducibility | `BLOCKED_SOURCE` | [JSON](docs/evidence_cards/CLAIMBOUND-REPRO_APPENDIX_D001-2026-05-07.json) |
 | Funding review appendix | Funding reviewers and program evaluators | `BLOCKED_SOURCE` | [JSON](docs/evidence_cards/CLAIMBOUND-FUNDING_REVIEW_D001-2026-05-07.json) |

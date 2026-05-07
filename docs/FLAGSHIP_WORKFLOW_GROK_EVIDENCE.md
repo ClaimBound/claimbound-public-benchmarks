@@ -99,6 +99,7 @@ claim live runtime equivalence.
 ClaimBound output now: PASSED_UNDER_PROTOCOL / GREEN_VALIDATED source audit.
 
 Card: docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json
+Visual card: docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.svg
 ```
 
 ## Narrow Protocol
@@ -247,3 +248,22 @@ PASSED_UNDER_PROTOCOL / GREEN_VALIDATED after source audit execution
 The draft became green only after a real source-audit run produced the sanitized
 report and evidence card. The green card is limited to source transparency and
 does not prove live Grok runtime equivalence.
+
+## Local Rerun Check
+
+The Grok source-audit workflow was rerun from a fresh local clone of
+`xai-org/grok-prompts`. The sanitized report hash matched the original report:
+
+```text
+2bd2558bff930977062932d8a04290309e1e92a0ee7750aad64c42342e58a8a7
+```
+
+Rerun report:
+
+```text
+artifacts/grok_prompts_source_audit_d001_local_rerun_summary.json
+```
+
+This is a workflow sanity check, not an independent reproduction claim. A
+separate operator and environment should create a `reproduction_attempt` card
+before the reproduction level is upgraded.
