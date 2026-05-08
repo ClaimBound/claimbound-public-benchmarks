@@ -1,12 +1,12 @@
 {
-  "card_count": 12,
+  "card_count": 15,
   "cards": [
     {
       "domain": "ai-product-evidence",
       "evidence_id": "CLAIMBOUND-AI_PRODUCT_CLAIM_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "xAI Grok 4 public announcement",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-AI_PRODUCT_CLAIM_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 1,
@@ -15,14 +15,15 @@
       "sanitized_report_path": "artifacts/ai_product_claim_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-AI_PRODUCT_CLAIM_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-AI_PRODUCT_CLAIM_D001-2026-05-07.svg"
     },
     {
       "domain": "civic-tech",
       "evidence_id": "CLAIMBOUND-CIVIC_CLAIM_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "NYC TLC Trip Record Data",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-CIVIC_CLAIM_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 2,
@@ -31,14 +32,15 @@
       "sanitized_report_path": "artifacts/civic_claim_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-CIVIC_CLAIM_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-CIVIC_CLAIM_D001-2026-05-07.svg"
     },
     {
       "domain": "education",
       "evidence_id": "CLAIMBOUND-EDU_REPRO_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "NASA POWER Daily point API",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-EDU_REPRO_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 3,
@@ -47,14 +49,15 @@
       "sanitized_report_path": "artifacts/edu_repro_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-EDU_REPRO_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-EDU_REPRO_D001-2026-05-07.svg"
     },
     {
       "domain": "funding-review",
       "evidence_id": "CLAIMBOUND-FUNDING_REVIEW_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "ClaimBound public repository",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-FUNDING_REVIEW_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 4,
@@ -63,14 +66,15 @@
       "sanitized_report_path": "artifacts/funding_review_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-FUNDING_REVIEW_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-FUNDING_REVIEW_D001-2026-05-07.svg"
     },
     {
       "domain": "ai-transparency",
       "evidence_id": "CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "xAI Grok prompts GitHub repository",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-GROK_PROMPTS_SOURCE_AUDIT_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 5,
@@ -87,7 +91,7 @@
       "evidence_id": "CLAIMBOUND-ML_APPENDIX_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "NASA POWER Daily point API",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-ML_APPENDIX_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 6,
@@ -96,14 +100,15 @@
       "sanitized_report_path": "artifacts/ml_appendix_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-ML_APPENDIX_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-ML_APPENDIX_D001-2026-05-07.svg"
     },
     {
       "domain": "ai-model-evaluation",
       "evidence_id": "CLAIMBOUND-MODEL_EVAL_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "xAI Grok 4 API documentation",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-MODEL_EVAL_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 7,
@@ -112,7 +117,8 @@
       "sanitized_report_path": "artifacts/model_eval_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-MODEL_EVAL_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-MODEL_EVAL_D001-2026-05-07.svg"
     },
     {
       "domain": "renewable-energy-resource",
@@ -153,7 +159,7 @@
       "evidence_id": "CLAIMBOUND-PROCUREMENT_AI_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "xAI Grok 4 API documentation",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-PROCUREMENT_AI_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 10,
@@ -162,14 +168,15 @@
       "sanitized_report_path": "artifacts/procurement_ai_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-PROCUREMENT_AI_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-PROCUREMENT_AI_D001-2026-05-07.svg"
     },
     {
       "domain": "open-science",
       "evidence_id": "CLAIMBOUND-REPRO_APPENDIX_D001-2026-05-07",
       "last_verified_date": "2026-05-07",
       "official_source_name": "ClaimBound NASA POWER D-103 evidence card",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-REPRO_APPENDIX_D001-2026-05-07.json",
       "record_type": "source_audit",
       "registry_sequence": 11,
@@ -178,14 +185,15 @@
       "sanitized_report_path": "artifacts/repro_appendix_d001_blocked_readiness_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-REPRO_APPENDIX_D001-2026-05-07.json",
       "verification_count": 1,
-      "verification_level": "SINGLE_OPERATOR"
+      "verification_level": "SINGLE_OPERATOR",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-REPRO_APPENDIX_D001-2026-05-07.svg"
     },
     {
       "domain": "public-data",
       "evidence_id": "CLAIMBOUND-SOURCE_AUDIT_D001-2026-05-08",
       "last_verified_date": "2026-05-08",
       "official_source_name": "EEA Air Quality Download Service",
-      "operator": "Codex-assisted local operator",
+      "operator": "local operator",
       "path": "docs/evidence_cards/CLAIMBOUND-SOURCE_AUDIT_D001-2026-05-08.json",
       "record_type": "source_audit",
       "registry_sequence": 12,
@@ -194,6 +202,57 @@
       "sanitized_report_path": "artifacts/source_audit_d001_summary.json",
       "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-SOURCE_AUDIT_D001-2026-05-08.json",
       "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-SOURCE_AUDIT_D001-2026-05-08.svg",
+      "verification_count": 1,
+      "verification_level": "SINGLE_OPERATOR"
+    },
+    {
+      "domain": "ai-transparency",
+      "evidence_id": "CLAIMBOUND-OPENAI_GPT5_SYSTEM_CARD_SOURCE_AUDIT_D001-2026-05-08",
+      "last_verified_date": "2026-05-08",
+      "official_source_name": "OpenAI GPT-5 System Card PDF",
+      "operator": "local operator",
+      "path": "docs/evidence_cards/CLAIMBOUND-OPENAI_GPT5_SYSTEM_CARD_SOURCE_AUDIT_D001-2026-05-08.json",
+      "record_type": "source_audit",
+      "registry_sequence": 13,
+      "reproduction_level": "not independently reproduced",
+      "result_status": "PASSED_UNDER_PROTOCOL",
+      "sanitized_report_path": "artifacts/openai_gpt5_system_card_source_audit_d001_summary.json",
+      "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-OPENAI_GPT5_SYSTEM_CARD_SOURCE_AUDIT_D001-2026-05-08.json",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-OPENAI_GPT5_SYSTEM_CARD_SOURCE_AUDIT_D001-2026-05-08.svg",
+      "verification_count": 1,
+      "verification_level": "SINGLE_OPERATOR"
+    },
+    {
+      "domain": "ai-transparency",
+      "evidence_id": "CLAIMBOUND-ANTHROPIC_SYSTEM_CARDS_SOURCE_AUDIT_D001-2026-05-08",
+      "last_verified_date": "2026-05-08",
+      "official_source_name": "Anthropic Model System Cards",
+      "operator": "local operator",
+      "path": "docs/evidence_cards/CLAIMBOUND-ANTHROPIC_SYSTEM_CARDS_SOURCE_AUDIT_D001-2026-05-08.json",
+      "record_type": "source_audit",
+      "registry_sequence": 14,
+      "reproduction_level": "not independently reproduced",
+      "result_status": "PASSED_UNDER_PROTOCOL",
+      "sanitized_report_path": "artifacts/anthropic_system_cards_source_audit_d001_summary.json",
+      "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-ANTHROPIC_SYSTEM_CARDS_SOURCE_AUDIT_D001-2026-05-08.json",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-ANTHROPIC_SYSTEM_CARDS_SOURCE_AUDIT_D001-2026-05-08.svg",
+      "verification_count": 1,
+      "verification_level": "SINGLE_OPERATOR"
+    },
+    {
+      "domain": "ai-transparency",
+      "evidence_id": "CLAIMBOUND-GOOGLE_DEEPMIND_MODEL_CARDS_SOURCE_AUDIT_D001-2026-05-08",
+      "last_verified_date": "2026-05-08",
+      "official_source_name": "Google DeepMind Model Cards",
+      "operator": "local operator",
+      "path": "docs/evidence_cards/CLAIMBOUND-GOOGLE_DEEPMIND_MODEL_CARDS_SOURCE_AUDIT_D001-2026-05-08.json",
+      "record_type": "source_audit",
+      "registry_sequence": 15,
+      "reproduction_level": "not independently reproduced",
+      "result_status": "PASSED_UNDER_PROTOCOL",
+      "sanitized_report_path": "artifacts/google_deepmind_model_cards_source_audit_d001_summary.json",
+      "share_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-GOOGLE_DEEPMIND_MODEL_CARDS_SOURCE_AUDIT_D001-2026-05-08.json",
+      "svg_url": "https://github.com/ClaimBound/claimbound-public-benchmarks/blob/main/docs/evidence_cards/CLAIMBOUND-GOOGLE_DEEPMIND_MODEL_CARDS_SOURCE_AUDIT_D001-2026-05-08.svg",
       "verification_count": 1,
       "verification_level": "SINGLE_OPERATOR"
     }
@@ -206,7 +265,7 @@
     "by_domain": {
       "ai-model-evaluation": 1,
       "ai-product-evidence": 1,
-      "ai-transparency": 1,
+      "ai-transparency": 4,
       "civic-tech": 1,
       "coastal-water-level": 1,
       "education": 1,
@@ -219,20 +278,23 @@
     },
     "by_record_type": {
       "evidence_result": 2,
-      "source_audit": 10
+      "source_audit": 13
     },
     "by_result_status": {
       "BLOCKED_SOURCE": 8,
       "NEGATIVE_RESULT_UNDER_PROTOCOL": 1,
-      "PASSED_UNDER_PROTOCOL": 3
+      "PASSED_UNDER_PROTOCOL": 6
     },
     "by_source": {
+      "Anthropic Model System Cards": 1,
       "ClaimBound NASA POWER D-103 evidence card": 1,
       "ClaimBound public repository": 1,
       "EEA Air Quality Download Service": 1,
+      "Google DeepMind Model Cards": 1,
       "NASA POWER Daily point API": 3,
       "NOAA CO-OPS Data API": 1,
       "NYC TLC Trip Record Data": 1,
+      "OpenAI GPT-5 System Card PDF": 1,
       "xAI Grok 4 API documentation": 2,
       "xAI Grok 4 public announcement": 1,
       "xAI Grok prompts GitHub repository": 1
