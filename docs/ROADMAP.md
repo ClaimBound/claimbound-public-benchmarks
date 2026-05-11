@@ -35,12 +35,13 @@ Add or tighten public documentation around:
 
 ### Global Audiences And Examples
 
-Add nine audience examples to the public README and audience/use-case docs.
+Add ten audience examples to the public README and audience/use-case docs.
 Each example should show what a concrete ClaimBound record gives that ordinary
 marketing, screenshots or narrative claims do not give.
 
 | Audience | Example public use |
 | --- | --- |
+| Public AI transparency readers | Check official AI documentation, system-card and model-card source boundaries without turning them into model-quality claims. |
 | AI and LLM evaluation teams | Check a model, RAG, agent or benchmark claim with timestamp, prompt hash, model/API metadata, source rule and scoring rule. |
 | Open-science and reproducibility researchers | Publish negative, blocked and reproduced outcomes as useful evidence records instead of hiding them. |
 | Funding reviewers and program evaluators | Inspect what was promised, which protocol and source were used, what happened and what cannot be claimed. |

@@ -9,6 +9,7 @@ protocols, sanitized artifacts, evidence cards and registry entries.
 
 | Track | Source | Public outcome | Interpretation |
 | --- | --- | --- | --- |
+| Anthropic/OpenAI/Google public AI docs | Official system-card or model-card pages/PDFs | `PASSED_UNDER_PROTOCOL` | The public documentation source boundaries passed narrow URL, content, marker and SHA-256 source audits only. |
 | Grok prompts source audit | xAI Grok prompts GitHub repository | `PASSED_UNDER_PROTOCOL` | The public prompt repository passed the source-audit gate for repository availability, commit identity, README/LICENSE presence and prompt-file hashes only. |
 | EEA source audit D-001 | EEA Air Quality Download Service | `PASSED_UNDER_PROTOCOL` | The public EEA download page passed the source-audit gate for page reachability, current download-service link and rights notice link only. |
 | NASA POWER D-103 | NASA POWER Daily point API | `PASSED_UNDER_PROTOCOL` | A narrow renewable-resource signal passed the frozen gate for the documented points, period, target, controls and acceptance rule only. |
@@ -18,8 +19,8 @@ protocols, sanitized artifacts, evidence cards and registry entries.
 
 ## Grok Prompts Source Audit
 
-Grok prompts source audit is the current flagship "Where is the evidence?"
-example for public AI transparency.
+Grok prompts source audit is a worked "Where is the evidence?" example for
+public AI transparency.
 
 Allowed interpretation:
 
@@ -38,6 +39,27 @@ This proves Grok is safer, better or benchmark-superior.
 
 The card is green only for the source-audit boundary. It is not a runtime model
 equivalence result.
+
+## Public AI System-Card And Model-Card Audits
+
+The Anthropic, OpenAI and Google DeepMind source-audit cards are public AI
+transparency examples.
+
+Allowed interpretation:
+
+```text
+The official public documentation source was reachable at access time and the
+sanitized source-audit report recorded the expected metadata and SHA-256.
+```
+
+Forbidden interpretation:
+
+```text
+This proves model safety.
+This proves model quality.
+This proves runtime behavior.
+This proves benchmark superiority or deployment readiness.
+```
 
 ## EEA Source Audit D-001
 
