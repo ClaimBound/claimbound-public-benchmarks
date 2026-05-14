@@ -76,8 +76,9 @@ or open the
 ## Example Cards
 
 These are deliberately different outcomes: green means a narrow claim passed,
-yellow means reproduction is useful but limited, and red means the protocol ran
-but the claim did not pass.
+yellow means reproduction is useful but limited, amber means the source boundary
+blocked a fair result, and red means the protocol ran but the claim did not
+pass.
 
 <p>
   <img
@@ -106,17 +107,17 @@ but the claim did not pass.
 
 ## Ten Public Use Categories
 
-The registry is easier to understand by audience. Every row below says who the
-card helps, what kind of claim it checks, what has been proven so far, and what
-to do next.
+The public examples are easier to understand by audience. Every row below says
+who the evidence discipline helps, what kind of claim it checks, what has been
+proven so far, and what to do next.
 
-| Audience / category | Typical task | Current example cards | What we proved | Status and next step |
+| Audience / category | Typical task | Current examples | What we proved | Status and next step |
 | --- | --- | --- | --- | --- |
 | Public AI transparency readers | Check whether AI vendors publish inspectable public documentation. | Anthropic system cards, OpenAI GPT-5 system-card PDF, Google DeepMind model cards, xAI Grok prompts. | Official public pages or repositories were reachable and hashed under a source-audit boundary. | Green source-audit cards exist. Next: independent reruns and narrower runtime-equivalence requests where sources allow it. |
 | AI and LLM evaluation teams | Check whether a benchmark or model claim has model ID, prompt set, scoring rule and transcript hashes. | `MODEL_EVAL_D001`. | The current source did not provide enough material for a fair public evidence result. | `BLOCKED_SOURCE`. Next: provide frozen prompts, model/API metadata, transcript hashes and scoring code. |
 | Companies with AI products | Turn a product claim into a customer-readable evidence card. | `AI_PRODUCT_CLAIM_D001`. | The public product announcement was not enough to support an empirical pass/fail claim. | `BLOCKED_SOURCE`. Next: publish exact claim, model/source docs, prompt or transcript manifest and limitations. |
 | Independent verifiers and public buyers | Decide what is independently checkable before adopting an AI system. | `PROCUREMENT_AI_D001`. | Procurement evidence needs source, scoring and model metadata before it can become decision support. | `BLOCKED_SOURCE`. Next: run a vendor-claim protocol with frozen sources and stop rules. |
-| Data stewards and public-data teams | Verify official source pages, rights notes and raw-payload policy before analysis. | EEA Air Quality source audit, EEA AQ manual track, CDC mirror source-boundary artifact. | EEA passed a narrow download-page source audit, but the larger PM10 manual track blocked because the API URL-list manifest was incomplete for BE/NL. | EEA source audit is green; EEA manual track and CDC remain blocked-source records. Next: complete raw-payload reruns only with a full external manifest. |
+| Data stewards and public-data teams | Verify official source pages, rights notes and raw-payload policy before analysis. | EEA Air Quality source audit, EEA AQ manual track. | EEA passed a narrow download-page source audit, but the larger PM10 manual track blocked because the API URL-list manifest was incomplete for BE/NL. | EEA source audit is green; EEA manual track is a blocked-source card. Next: complete raw-payload reruns only with a full external manifest. |
 | Civic tech, journalism and watchdogs | Check claims about mobility, infrastructure, climate or public services against official data. | NYC TLC Phase 4 artifact, `CIVIC_CLAIM_D001`. | Current civic examples show why official source access and frozen gates matter before public claims. | Blocked or artifact-only. Next: add a full evidence card or keep the artifact clearly marked as non-card evidence. |
 | Open science and reproducibility teams | Reproduce a published result and keep negative or drift outcomes citable. | NASA POWER D-103, `REPRO_APPENDIX_D001`. | NASA reproduced the gate-level outcome with source-byte drift; the reproduction appendix scaffold still needs stronger source linkage. | NASA is yellow-limited reproduction. Next: add independent rerun records. |
 | ML researchers | Separate a narrow method result from broad model-superiority language. | `ML_APPENDIX_D001`. | The current appendix scaffold shows required controls, baselines and claim boundary, but no completed empirical result. | `BLOCKED_SOURCE`. Next: run with frozen controls and publish exact pass/negative/blocked status. |
